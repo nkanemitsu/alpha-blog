@@ -10,7 +10,6 @@
 <% end %>
 
 <%= form_with(model: @article, local: true) do |f| %>
-
     <p>
         <%= f.label :title %><br/>
         <%= f.text_field :title %>
@@ -24,5 +23,6 @@
     <p>
         <%= f.submit %>
     </p>
-
 <% end %>
+
+<p><%= link_to 'Go back to Show page', article_path %></p>
