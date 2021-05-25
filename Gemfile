@@ -51,7 +51,7 @@ group :test do
   gem 'webdrivers'
 end
 
-group :prodution do
+group :production do
   # Gem for activating PostgreSQL
   gem 'pg'
 end
